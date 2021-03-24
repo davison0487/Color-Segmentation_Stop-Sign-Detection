@@ -19,7 +19,7 @@ Labeling training set.
 This section we will present some result of masked image and boundary boxes, along with some discussions.
 Let’s take a look at an easy example. This image has a clear vision for the stop sign, we can easily detect stop sign just by the model.
  
-Fig. 1 Detection result for 16.jpg 
+![image](image/fig1) Detection result for 16.jpg 
 Fig. 2 Masked image for 16.jpg
 In 38.jpg (Fig.3, Fig.4), there are two stop signs with a few non-stop sign red objects. As we can see in the masked image, we have classified one stop sign and one cut into two-halves. Unfortunately, the cut-halved stop sign is being filtered out by scoring mechanism. However this result is acceptable, we can barely see red pixels at the side of the sign, only half of the stop sign should not pass the scoring system. Also, some small masks did not pass the test as expected.
  
