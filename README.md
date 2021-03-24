@@ -32,9 +32,10 @@ In 38.jpg (Fig.3, Fig.4), there are two stop signs with a few non-stop sign red 
 
 Fig. 3 Detection result for 38.jpg
 
-![image](https://github.com/davison0487/Color-Segmentation_Stop-Sign-Detection/blob/main/image/fig4.png)
+![image](https://github.com/davison0487/Color-Segmentation_Stop-Sign-Detection/blob/main/image/fig4.jpg)
 
 Fig. 4 Masked image for 38.jpg
+
 Now we try an image with more red objects and examine the function of scoring mechanism when the classifying model did not work out very well. The masked image by the model showed the red car and fire hydrant. Thanks to filtering system, we have successfully detected correct result without the interference of car and the hydrant.
  
 ![image](https://github.com/davison0487/Color-Segmentation_Stop-Sign-Detection/blob/main/image/fig5.png)
