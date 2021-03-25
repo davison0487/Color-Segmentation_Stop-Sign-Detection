@@ -1,4 +1,6 @@
 # Color Segmentation – Stop Sign Detection
+Computer vision is a crucial part in robotics and AI problems. Applications can be found in various research areas and autonomous driving industries. Classifying pixels color is the most important part of color segmentation. Pixels from common camera modules are consist of R, G and B color. Hence we are using these three parameters correspond to the dataset to build up classifying model for detection. 
+
 
 - 1.stop_sign_detector.py
 Main detection file.
